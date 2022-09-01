@@ -69,6 +69,7 @@ const validateEmail = (email) => {
   let newEmail = /^[a-z\d,]+\.{0,2}?[a-z\d,]+@[\w\.-]+\.(com|org|net)$/;
   return newEmail.test(email);
 };
+
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
 
